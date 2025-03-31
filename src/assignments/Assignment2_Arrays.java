@@ -40,14 +40,19 @@ public class Assignment2_Arrays {
 						{ "Probability&Stats", "MachineLearning", "Compiler Design", "Theory of Computation",
 								"Embedded Systems", "Computer Graphics" },
 						{ "86", "88", "84", "95", "73", "90" }
+								
+								
+							
 
 				} };
 
-		System.out.println("1. " +studentMarks[0][0][2] + ": " + studentMarks[1][0][3] + ": " + studentMarks[2][4][3] );
-		System.out.println("2. " +studentMarks[0][0][2] + ": " + studentMarks[1][0][4] + ": " + studentMarks[2][4][4] );
-		System.out.println("3. " +studentMarks[0][0][4] + ": " + studentMarks[1][0][2] + ": " + studentMarks[2][8][2]+ ": " + studentMarks[2][9][2] );
-		System.out.println("4. " +studentMarks[0][0][4] + ": " + studentMarks[1][0][2] + ": " + studentMarks[2][8][5]+ ": " + studentMarks[2][9][5] );
-		
+		System.out.println("1. " + studentMarks[0][0][2] + ": " + studentMarks[1][0][3] + ": " + studentMarks[2][4][3]);
+		System.out.println("2. " + studentMarks[0][0][2] + ": " + studentMarks[1][0][4] + ": " + studentMarks[2][4][4]);
+		System.out.println("3. " + studentMarks[0][0][4] + ": " + studentMarks[1][0][2] + ": " + studentMarks[2][8][2]
+				+ ": " + studentMarks[2][9][2]);
+		System.out.println("4. " + studentMarks[0][0][4] + ": " + studentMarks[1][0][2] + ": " + studentMarks[2][8][5]
+				+ ": " + studentMarks[2][9][5]);
+
 	}
 
 }
