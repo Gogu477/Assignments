@@ -1,6 +1,6 @@
 package assignments;
 
-public class Assignment11 {
+public class Assignment11_PowerCalculation {
 
 	static double power(double x, int y) {
 		double result = 1;
@@ -40,7 +40,7 @@ public class Assignment11 {
 
 		System.out.println(power(2.00000, -2));
 		
-
+		 	 
 	}
 
 }
